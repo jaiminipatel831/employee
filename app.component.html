@@ -1,0 +1,14 @@
+<div><label>Firstname:</label>
+  <textarea rows="1"></textarea>
+  </div>
+  <div>
+  <label>Lastname:</label>
+  <textarea rows="1"></textarea>
+  </div>
+  <div>
+  <label>Phone:</label>
+  <textarea rows="1"></textarea>
+  </div>
+  <button (click)="adddata(Firstname.value,Lastname.value,Phone.value)">add</button>
+  <button (click)="editdata(element._id)">edit</button>
+  <button (click)="deletedata(element._id)">delete</button>
